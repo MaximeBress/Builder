@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "gulp"
+    "start": "nodemon -L -e .twig,.js ./bin/www"
   },
   "dependencies": {
     "body-parser": "~1.17.1",
@@ -22,6 +22,7 @@
     "gulp-livereload": "^3.8.1",
     "gulp-nodemon": "^2.2.1",
     "gulp-ruby-sass": "^2.1.1",
-    "jshint": "^2.9.5"
+    "jshint": "^2.9.5",
+    "nodemon": "^1.12.0"
   }
 }
